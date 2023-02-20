@@ -1,9 +1,15 @@
 <template>
   <!-- Header -->
-  <header id="header" class="bg-black flex items">
-    <nav class="container mx-auto flex justify-start items-center py-5 px-4">
+  <header id="header" class="bg-black flex">
+    <nav class="">
       <!-- App Name -->
-      <img src="../assets/logo.png" alt="" height="100" width="100" />
+      <img
+        src="../assets/logo.png"
+        alt=""
+        height="100"
+        width="100"
+        class="ml-2"
+      />
       <div class="flex flex-grow items-center">
         <!-- Primary Navigation -->
         <!-- Navigation Links -->

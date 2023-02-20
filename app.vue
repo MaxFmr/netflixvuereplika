@@ -2,10 +2,9 @@
   <!-- Header -->
   <app-header></app-header>
 
-  <!-- Section -->
-  <div v-for="movie in movies">
+  <section v-for="movie in movies" :movie="movie" class="bg-black ml-2">
     <app-section :movie="movie"></app-section>
-  </div>
+  </section>
 </template>
 
 <script>

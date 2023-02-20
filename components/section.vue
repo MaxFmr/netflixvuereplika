@@ -1,9 +1,15 @@
 <template>
-  <section class="w-[100%] border flex flex-col flex-wrap overflow-scroll">
-    <h2>{{ movie.category }}</h2>
-    <div class="flex">
-      <div v-for="image in images" class="h-[200px] w-[300px]">
-        <img :src="image" alt="" height="300" width="300" />
+  <section class="w-[100vw] h-[200px] flex flex-col" :movie="movie">
+    <h2 class="text-white text-lg font-bold mb-3 mt-3">{{ movie.category }}</h2>
+    <div class="flex flex-nowrap overflow-y-scroll">
+      <div v-for="image in images" class="flex flex-shrink-0">
+        <img
+          :src="image"
+          alt=""
+          height="200"
+          width="300"
+          class="object-cover"
+        />
       </div>
     </div>
   </section>
