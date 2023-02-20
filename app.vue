@@ -3,7 +3,7 @@
   <app-header></app-header>
 
   <!-- Section -->
-  <div class="" v-for="movie in movies">
+  <div v-for="movie in movies">
     <app-section :movie="movie"></app-section>
   </div>
 </template>

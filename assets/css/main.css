@@ -34,3 +34,9 @@ td {
   margin: 0;
   padding: 0;
 }
+#element::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
