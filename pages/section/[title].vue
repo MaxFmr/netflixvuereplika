@@ -1,17 +1,15 @@
 <template>
-  <sectionDetails :category="category"></sectionDetails>
+  <AppHeader></AppHeader>
+  <sectionDetails></sectionDetails>
 </template>
 <script>
 import sectionDetails from "~~/components/sectionDetails.vue";
+import AppHeader from "~~/components/header.vue";
 
 export default {
-  data() {
-    return {
-      category: this.$route.params.title,
-    };
-  },
   components: {
     sectionDetails,
+    AppHeader,
   },
 };
 </script>
