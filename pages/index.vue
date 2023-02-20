@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import AppHeader from "./components/header.vue";
-import AppSection from "./components/section.vue";
-import movies from "./data/movies.json";
+import AppHeader from "../components/header.vue";
+import AppSection from "../components/section.vue";
+import movies from "../data/movies.json";
 export default {
   name: "App",
   components: {
