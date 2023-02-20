@@ -1,16 +1,11 @@
 <template>
-  <h1 class="text-white">{{ category.category }}</h1>
-  <section class="" :movie="movie">
-    <div class="flex flex-nowrap overflow-y-scroll">
-      <div v-for="image in category.images" class="flex flex-shrink-0">
-        <img
-          :src="image"
-          alt=""
-          height="200"
-          width="300"
-          class="object-cover"
-        />
-      </div>
+  <h1 class="text-white ml-5">{{ category.category }}</h1>
+  <section
+    class="w-[100vw] h-[100vh] flex flex-wrap ml-5 justify-center"
+    :movie="movie"
+  >
+    <div v-for="image in category.images" class="h-[170px] w-[300px] m-1">
+      <img :src="image" alt="" height="200" width="300" class="object-cover" />
     </div>
   </section>
 </template>
