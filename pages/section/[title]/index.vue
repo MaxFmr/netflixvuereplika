@@ -1,5 +1,6 @@
 <template>
   <AppHeader></AppHeader>
+
   <sectionDetails></sectionDetails>
 </template>
 <script>

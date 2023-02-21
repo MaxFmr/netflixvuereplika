@@ -1,5 +1,6 @@
 <template>
   <h1 class="text-white ml-5">{{ category.category }}</h1>
+
   <section
     class="w-[100vw] h-[100vh] flex flex-wrap ml-5 justify-center"
     :movie="movie"
@@ -20,6 +21,7 @@ export default {
     );
     return {
       category,
+      linkTo: `/section/${this.$route.params.title}/${movies[2].category}`,
     };
   },
   name: "AppSectionDetails",
