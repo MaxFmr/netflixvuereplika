@@ -1,4 +1,6 @@
 # Minimalist Netflix Replika in VueJS to improve my new skills in that framework
+![image](https://user-images.githubusercontent.com/87577502/220346048-cef2f1e4-288a-460f-a823-a68474c69458.png)
+
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
