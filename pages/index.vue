@@ -2,7 +2,12 @@
   <!-- Header -->
   <app-header></app-header>
 
-  <section v-for="movie in movies" :movie="movie" class="bg-black ml-2">
+  <section
+    v-for="movie in movies"
+    :movie="movie"
+    :key="movie.category"
+    class="bg-black ml-2"
+  >
     <app-section :movie="movie"></app-section>
   </section>
 </template>

@@ -5,7 +5,7 @@
         {{ movie.category }}
       </h2>
       <div class="flex flex-nowrap overflow-y-scroll">
-        <div v-for="image in images" class="flex flex-shrink-0">
+        <div v-for="image in images" :kry="image" class="flex flex-shrink-0">
           <img
             :src="image"
             alt=""

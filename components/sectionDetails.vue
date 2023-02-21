@@ -5,7 +5,11 @@
     class="w-[100vw] h-[100vh] flex flex-wrap ml-5 justify-center"
     :movie="movie"
   >
-    <div v-for="image in category.images" class="h-[170px] w-[300px] m-1">
+    <div
+      v-for="image in category.images"
+      :key="image"
+      class="h-[170px] w-[300px] m-1"
+    >
       <img :src="image" alt="" height="200" width="300" class="object-cover" />
     </div>
   </section>
