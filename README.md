@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Minimalist Netflix Replika in VueJS to improve my new skills in that framework
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
